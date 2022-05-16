@@ -1,0 +1,43 @@
+.container-proyects{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000023;
+}
+.contImgProyects{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    
+}
+.imgPoyect{
+    width: 22%;
+    height: 100%;
+    margin: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.imgPoyect:hover{
+    opacity: 0.6;
+    transition: all 0.7s;
+}
+.title-topProyects{
+    font-family: Koulen;
+    font-size: 30px;
+    height: 35px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+    
+    left: -425px;
+    border-left: 2px solid #000000;
+}
