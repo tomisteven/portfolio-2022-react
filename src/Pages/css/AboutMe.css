@@ -29,11 +29,11 @@
     z-index: 1;
     position: relative;
     letter-spacing: 1px;
-    right: 227px;
+    
     
 }
 .title-aboutMe .span{
-    color: #fff;
+    color: rgb(255, 47, 0);
 }
 .contDescription{
     width: 100%;
@@ -52,7 +52,7 @@
     font-weight: 500;
     text-align: justify;
     margin-top: -20px;
-    border-left: 3px solid rgb(120, 0, 126);
+    border-left: 3px solid rgb(251, 18, 18);
     padding-left: 10px;
     
 }

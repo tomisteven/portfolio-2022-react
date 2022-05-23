@@ -3,10 +3,11 @@ import "./css/Presentation.css"
 import img from "../assets/webImg.png"
 
 
+
 export default function Presentation() {
   return (
+    
     <div className='container'>
-
       <div class="contPresentacion">
         <div class="conttitleSubtitle">
           <h3 className='presentationTitle'>Tomas Steven</h3>
@@ -17,7 +18,7 @@ export default function Presentation() {
       <div class="contImg">
         <img src={img} alt=""/>
       </div>
-
     </div>
+     
   )
 }
