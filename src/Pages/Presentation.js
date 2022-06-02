@@ -1,6 +1,7 @@
 import React from 'react'
 import "./css/Presentation.css"
-import img from "../assets/webImg.png"
+import img from "../assets/avatares.png"
+//import img from "../assets/avatar1.png"
 
 
 
