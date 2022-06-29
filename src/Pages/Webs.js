@@ -11,7 +11,6 @@ import crudapi from "../assets/crudapi.png"
 import tictac from "../assets/tictac.png"
 import construccion from "../assets/construccion.png"
 import gitFilters from "../assets/gitFilters.png"
-import { Link } from 'react-router-dom'
 
 export default function Webs() {
   return (
@@ -19,7 +18,7 @@ export default function Webs() {
       <div className="cont-webs">
         <h2 className="web-title">Proyectos Web</h2>
         <div className="cont-webs-img">
-            <article class="card" style={{
+            <article className="card" style={{
               backgroundImage: `url(${calculator})`
             }} >
               <div className="card__content">
@@ -45,7 +44,7 @@ export default function Webs() {
             <article className="card" style={{
               backgroundImage: `url(${shopweb})`
             }}>
-              <div class="card__content">
+              <div className="card__content">
                       <h3 className="card__title">Catalogo web <span className='span_title'> 2020</span></h3>
                       <p className="card__description">Catalogo web, realizado con Javascript y html. Tiene funciones de filtro y busqueda, por cada articulo se crea una pagina nueva.</p>
                       <a target={"_blank"} rel="noreferrer" href="https://catalogo-onlinne.netlify.app/">

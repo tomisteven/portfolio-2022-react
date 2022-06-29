@@ -87,21 +87,5 @@ export default function TopProyects() {
   )
 }
 
-/* <div className="proyects-imgs">
-            <img  className='imgPoyect' src={restoService} alt=""/>
-            <Link to="/resto-service">
-                <button className='button-proyect'>Ver Proyecto</button>
-            </Link>
-        </div>
-        <div className="proyects-imgs">
-          <img className='imgPoyect' src={gestionate} alt=""/>
-          <Link to="/resto-service">
-                <button className='button-proyect'>Ver Proyecto</button>
-            </Link>
-        </div>
-        <div className="proyects-imgs">
-          <img className='imgPoyect' src={structlife} alt=""/>
-          <Link to="/resto-service">
-                <button className='button-proyect'>Ver Proyecto</button>
-            </Link>
-        </div> */
+
+           

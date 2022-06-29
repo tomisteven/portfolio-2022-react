@@ -13,7 +13,7 @@ export default function Presentation() {
   return (
     
     <div className='container-presentation'>
-      <div class="contPresentacion">
+      <div className="contPresentacion">
           <h3 className='presentationTitle'>Tomas Steven</h3>
           <h5 className='presentationSubtitle'>Desarrollador de aplicaciones Web</h5>
           <Link to="/top-proyects">
@@ -23,7 +23,7 @@ export default function Presentation() {
         
     
         </div>
-      <div class="contImg">
+      <div className="contImg">
         <img src={img} alt=""/>
       </div>
     </div>

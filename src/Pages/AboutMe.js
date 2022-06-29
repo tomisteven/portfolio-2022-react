@@ -28,7 +28,7 @@ function AboutMe() {
         </div>
       </div>
       <h3 className='tecnologias-aboutMe'>Tecnologias</h3>
-      <div class="icons-tecnologias">
+      <div className="icons-tecnologias">
         <img src={icon} alt=""/>
         <img src={react} alt=""/>
         <img src={redux} alt=""/>

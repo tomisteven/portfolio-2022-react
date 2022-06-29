@@ -44,7 +44,7 @@ export default function TopProyectsIndivudual() {
       {
         proyect.map(el => (
           <div className='container-proyects-individual'>
-            <div class="column-info">
+            <div className="column-info">
               <div className='container-proyects-individual-info'>
                 <h1>{el.titulo}</h1>
                 <h3>Año {el.año}</h3>
