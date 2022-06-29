@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%) ;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #3166f8 100%);
     background-size: contain;
     background-position: center;
 }
