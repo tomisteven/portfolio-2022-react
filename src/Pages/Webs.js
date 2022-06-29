@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./css/Webs.css"
 
 import calculator from "../assets/calculator-web.png"
@@ -11,9 +11,27 @@ import crudapi from "../assets/crudapi.png"
 import tictac from "../assets/tictac.png"
 import construccion from "../assets/construccion.png"
 import gitFilters from "../assets/gitFilters.png"
+import Loader from './Loader'
 
 export default function Webs() {
+
+  const [loading, setLoading] = useState(true);
+
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 1000);
+
+
+
+
   return (
+
+    <>
+    {
+      loading ?
+      <Loader />
+      :
     <div>
       <div className="cont-webs">
         <h2 className="web-title">Proyectos Web</h2>
@@ -134,6 +152,8 @@ export default function Webs() {
       </div>
     </div>
     </div>
+}
+</>
   )
 }
 

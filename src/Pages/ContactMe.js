@@ -1,10 +1,24 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import "../Pages/css/Contactme.css"
+import Loader from './Loader';
 
 
 const ContactMe = () => {
+    const [loading, setLoading] = useState(true);
+
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  
   return (
+    <>
+    {
+        loading ?
+        <Loader />
+        :
+
     <div className="content">
 
         <h1 className="logo">Contac<span>to</span></h1>
@@ -53,6 +67,8 @@ const ContactMe = () => {
         </div>
 
         </div>
+    }
+    </>
 
   )
 }

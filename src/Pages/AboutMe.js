@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./css/AboutMe.css"
 import imgaboutme from '../assets/avatares.png';
 import icon from '../assets/icon.svg';
@@ -12,11 +12,24 @@ import html from '../assets/html5.svg'
 import git from '../assets/git.svg'
 import express from '../assets/express.svg'
 import css3 from '../assets/css3.svg'
+import Loader from './Loader';
 
 function AboutMe() {
+  const [loading, setLoading] = useState(true);
+
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 1000);
+
+
   return (
     
-    
+    <>
+{
+  loading ?
+  <Loader />
+  :
     <div className='container-aboutme'>
       <div className="cont-aboutMe">
         <img className='contImgAbout' src={imgaboutme} alt=""/>
@@ -42,7 +55,8 @@ function AboutMe() {
       </div>
        
     </div>
-    
+}
+    </>
     
   );
 }
