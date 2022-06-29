@@ -1,0 +1,107 @@
+[
+    {
+        "proyect": "helpcine",
+        "id": "helpcine0101", 
+        "año": "2020",
+        "titulo":"Help Cine",
+        "tipo": "web",
+        "url": "https://help-cine.netlify.app/",
+        "imagen": "../assets/heplcine.png",
+        "tecnologias": "Javascript, Json , Html y Css",
+        "descripcion" : "Help-Cine es un proyecto que le realice a una cuenta de instagram de critica de cine, fue realizada con javascript, html y css. Los datos de las peliculas se almacenaban en un Json, donde para mostrarlos utilizaba el metodo Fetch. se utilizo Boostrap para los sliders. Tiene un sistema de filtros segun el genero y categoria. Por cada pelicula se puede abrir en una nueva pagina con toda la descripcion y la imagen de la pelicula. Tambien se puede ver una pagina de contacto donde se puede enviar un mensaje a la cuenta de instagram de la cual se realizo el proyecto."
+    }, 
+
+    {
+        "proyect": "restoservice",
+        "id": "restoservice0102",
+        "año": "2021",
+        "titulo":"Resto Service",
+        "tipo": "web",
+        "url": "https://resto-service.netlify.app/",
+        "imagen": "../assets/restoservices.png",
+        "tecnologias": "Javascript, Json , Html y Css",
+        "descripcion" : "Resto Service es un proyecto que realice como proyecto personal, fue realizada con javascript, html y css. Los datos de las plantillas de comida se almacenaban en un Objeto con ingredientes y precios, donde para mostrarlos utilizaba componentes realizados en javascript. Tiene un sistema de filtros segun la comida que quieras comer e ingredientes. Por cada comida con sus ingredientes se muestra al final de la pagina el precio de cada ingrediente y el total de todo"
+    },
+    {
+        "proyect": "gestionate",
+        "id": "gestionate0103",
+        "año": "2022",
+        "titulo":"GestioNate",
+        "tipo": "web",
+        "url": "",
+        "imagen": "../assets/gestionate.png",
+        "tecnologias": "React Js, Node Js, Express, PostgreSql, Css, Fetch",
+        "descripcion": "GestioNate es un proyecto que ayuda a resolver el problema de un comerciante donde almacenaba sus datos en un Papel. La aplicacion web permite almacenar datos como clientes, productos, proveedores, tareas, turnos y mostrarlos en un panel de control con estadisticas. Los datos se almacenan en una base de datos de PostgreSql que es una base de datos relacional. Se puede hacer login con Auth2.0 y se puede agregar Todo tipo de datos desde el panel principal",
+        "production": false,
+        "imagenes" : [
+            {
+                "imagen": "../assets/gestionate/gestionate1.png",
+                "descripcion": "Panel de control"
+            },
+            {
+                "imagen": "../assets/gestionate/gestionate2.png",
+                "descripcion": "Tareas"
+            },
+            {
+                "imagen": "../assets/gestionate/gestionate3.png",
+                "descripcion": "Turnos"
+            },
+            {
+                "imagen": "../assets/gestionate/gestionate4.png",
+                "descripcion": "Productos"
+            },
+            {
+                "imagen": "../assets/gestionate/gestionate5.png",
+                "descripcion": "Proveedores"
+            },
+            {
+                "imagen": "../assets/gestionate/gestionate6.png",
+                "descripcion": "Contacto"
+            },
+            {
+                "imagen": "../assets/gestionate/gestionate7.png",
+                "descripcion": "Crear Proveedor-Clientes-Productos-Tareas-Turnos"
+            }
+            ,{
+                "imagen": "../assets/gestionate/gestionate8.png",
+                "descripcion": "Crear Proveedor-Clientes-Productos-Tareas-Turnos"
+            }
+        ]
+    },
+    {
+        "proyect": "struclife",
+        "id": "struclife0104",
+        "año": "2022",
+        "titulo":"StrucLife",
+        "tipo": "Aplicacion Mobile",
+        "url": "",
+        "imagen": "../assets/structLife.png",
+        "tecnologias": "React Native, MongoDb , Html y Css",
+        "descripcion": "StrucLife es un proyecto pensado en mi organizacion diaria, es una aplicacion con el fin de oganizar y estructurar mi vida, Es una aplicacion mobile realizada con React Native, donde se almacenan Tareas, turnos, Ideas, Estudios, Tecnoligas de estudio y demas, cuenta con un completado en el sector de tareas, se puede eliminar y modificarse.",
+        "production": true,
+        "imagenes" : [
+            {
+                "imagen": "../assets/structLife1.png",
+                "descripcion": "Tareas"
+            },
+            {
+                "imagen": "../assets/structLife2.png",
+                "descripcion": "Ideas"
+            },
+            {
+                "imagen": "../assets/structLife3.png",
+                "descripcion": "Estudios"
+            },
+            {
+                "imagen": "../assets/structLife4.png",
+                "descripcion": "Tecnologias"
+            },
+            {
+                "imagen": "../assets/structLife5.png",
+                "descripcion": "Turnos"
+            }
+        ]
+    }
+]
+
+
