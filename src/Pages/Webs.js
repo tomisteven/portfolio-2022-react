@@ -131,9 +131,9 @@ export default function Webs() {
               backgroundImage: `url(${crudapi})`
             }}>
               <div className="card__content">
-                      <h3 className="card__title">Sitio en construccion<span className='span_title'> 2022</span></h3>
-                      <p className="card__description">Filtro de busquedas de usuarios de GitHub con estadisticas y graficos</p>
-                      <a target={"_blank"} rel="noreferrer" href="https://calculadora-responsive.netlify.app/">
+                      <h3 className="card__title">Healty Store<span className='span_title'> 2022</span></h3>
+                      <p className="card__description">App para cargar productos con imagenes, es editable y se puede administrar</p>
+                      <a target={"_blank"} rel="noreferrer" href="https://storehealty.netlify.app">
                           <button className="card__button">Ver Proyecto</button>
                       </a>
               </div>
