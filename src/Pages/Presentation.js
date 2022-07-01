@@ -28,12 +28,9 @@ export default function Presentation() {
         <div className="contPresentacion">
             <h3 className='presentationTitle'>Tomas Steven</h3>
             <h5 className='presentationSubtitle'>Desarrollador de aplicaciones Web</h5>
-            <Link to="/webs">
+            <Link className='LINK' to="/webs">
                 <button className='presentationButton'>Ver Proyectos</button>
             </Link>
-            
-          
-      
           </div>
         <div className="contImg">
           <img src={img} alt=""/>

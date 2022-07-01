@@ -5,37 +5,39 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(to bottom, #ffffff 0%, #3166f8 100%);
+    background-image: linear-gradient(to bottom, #ffffff 0%, #1f5afe 100%);
     background-size: contain;
     background-position: center;
 }
 .contPresentacion{
-    width: 30%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-left: #000000 solid 4px;
+
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 .presentationTitle{
     font-family: Koulen;
     font-size: 65px;
-    padding-bottom: 15px;
+   
     position: relative;
-    border-left: 4px solid #000000;
     padding-left: 20px;
     font-weight: 600;
     letter-spacing: 2px;
-    margin-top: -20px;
 
 }
 .presentationSubtitle{
-    font-family: Koulen;
+    font-family: 'Shadows Into Light', cursive;
     letter-spacing: 1.5px;
-    font-size: 20px;
-    font-weight: 400;
-    position: absolute;
+    font-size: 36px;
+    font-weight: 500;
     margin-left: 25px;
-    margin-top: -20px;
+    margin-bottom: 15px;
+   
 }
 .presentationButton{
     width: 40%;
@@ -49,7 +51,7 @@
     font-family: Koulen;
     font-size: 20px;
     font-weight: 600;
-    
+    margin-left: 25px;
     cursor: pointer;
 }
 
@@ -71,3 +73,68 @@
 }
 
 
+/* responsive */
+@media screen and (max-width: 768px){
+    .container-presentation{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+    }
+    .contPresentacion{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
+    }
+    .presentationTitle{
+        font-size: 50px;
+        padding-bottom: 15px;
+        position: relative;
+        border-left: 4px solid #000000;
+        padding-left: 20px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border-left: none;
+    }
+    .presentationSubtitle{
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        margin-top: -20px;
+        position: relative;
+
+    }
+    .presentationButton{
+        width: 100%;
+        height: 50px;
+        background-color: #e23800c4;
+        border-radius: 5px;
+        border: none;
+        color: #ffffff;
+        letter-spacing: 1.5px;
+        font-family: Koulen;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+    .LINK{
+        margin-right: 25px;
+    }
+    .contImg{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    
+}
+    

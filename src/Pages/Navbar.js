@@ -3,27 +3,62 @@ import "./css/Navbar.css"
 import logWeb from "../assets/web.png"
 import pdf from "../assets/cv.pdf"
 import img_cv from "../assets/cv.png"
+import { Navbar, Nav, Container, Offcanvas} from "react-bootstrap"
+import Image from 'react-bootstrap/Image'
 
-export default function Navbar() {
 
-  const goHome = () => {
-    window.location.href = "/"
-  }
-  const goProyects = () => {
-    window.location.href = "/top-proyects"
-  }
-  const goAboutMe = () => {
-    window.location.href = "/about-me"
-  }
-  const goWebs = () => {
-    window.location.href = "/webs"
-  }
-    const goContact = () =>{
-        window.location.href = "/contactMe"
-    } 
+export default function NavbarComponent() {
+
+
+const expand = 'lg' || 'sm'
+     
 
   return (
-    <div className='container-navbar'>
+    <>
+        
+    <Navbar key={expand} bg="ligth" expand={expand} className="mb-4 mt-4">
+      <Container expand={expand} fluid>
+        <Navbar.Brand href="#">
+            <Container className='contNavbarLogo'>
+                <Image className='img-logo'  src={logWeb} />
+            </Container>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+        <Navbar.Offcanvas
+          id={`offcanvasNavbar-expand-${expand}`}
+          aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+          placement="end"
+        >
+          <Offcanvas.Body>
+            <Nav className="justify-content-end flex-grow-1 pe-3">
+              <Nav.Link className='btn-link-boos' href="/">Inicio</Nav.Link>
+              <Nav.Link className='btn-link-boos' href="/top-proyects">Top Proyectos</Nav.Link>
+              <Nav.Link className='btn-link-boos' href="/webs">Webs</Nav.Link>
+              <Nav.Link className='btn-link-boos' href="/about-me">Quien soy?</Nav.Link>
+              <Nav.Link className='btn-link-boos' href="/contactMe">Contacto</Nav.Link>
+              <a href={pdf} style={{
+                            textDecoration: 'none',
+                            color: '#000',
+                            marginTop: '8px',
+                        }} color="#fff" target="_blank" rel="noopener noreferrer" download="TomasSteven-Cv.pdf">
+                            <h6 className='btn-link-boos'>Descargar Cv <img src={img_cv} alt=""/></h6>
+                            
+                        </a>
+            </Nav>
+            
+          </Offcanvas.Body>
+        </Navbar.Offcanvas>
+      </Container>
+    </Navbar>
+  
+  
+    </>
+  )
+
+}
+
+
+/* <div className='container-navbar'>
         <nav className='navbar'>
             <div className="contNavbarItems">
                 <button onClick={goHome} style={{
@@ -96,7 +131,4 @@ export default function Navbar() {
 
 
 
-    </div>
-  )
-
-}
+    </div> */
