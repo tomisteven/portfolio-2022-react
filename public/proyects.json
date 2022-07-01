@@ -78,7 +78,7 @@
         "imagen": "../assets/structLife.png",
         "tecnologias": "React Native, MongoDb , Html y Css",
         "descripcion": "StrucLife es un proyecto pensado en mi organizacion diaria, es una aplicacion con el fin de oganizar y estructurar mi vida, Es una aplicacion mobile realizada con React Native, donde se almacenan Tareas, turnos, Ideas, Estudios, Tecnoligas de estudio y demas, cuenta con un completado en el sector de tareas, se puede eliminar y modificarse.",
-        "production": true,
+        "production": false,
         "imagenes" : [
             {
                 "imagen": "../assets/structLife1.png",

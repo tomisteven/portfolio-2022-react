@@ -33,6 +33,7 @@ export default function TopProyectsIndivudual() {
 
   useEffect(() => {
     getProyects();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
     
 
@@ -72,7 +73,7 @@ export default function TopProyectsIndivudual() {
                     {
                       el.imagenes.map(imagen => (
                         <>
-                        <h2 className='h2-descripcion-img'>{imagen.descripcion}</h2>
+                        <h2 className={imagen.descripcion.length > 20 ? "titulo-mayor-20" : 'h2-descripcion-img'}>{imagen.descripcion}</h2>
                         <img className='img-proyect-individual' src={imagen.imagen} alt='imagen proyecto'/>
                         </>
                       ))
