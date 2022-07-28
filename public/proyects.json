@@ -81,23 +81,46 @@
         "production": false,
         "imagenes" : [
             {
-                "imagen": "../assets/structLife1.png",
+                "imagen": "../assets/structlife/1.jpeg",
                 "descripcion": "Tareas"
             },
             {
-                "imagen": "../assets/structLife2.png",
+                "imagen": "../assets/structlife/2.jpeg",
                 "descripcion": "Ideas"
             },
             {
-                "imagen": "../assets/structLife3.png",
+                "imagen": "../assets/structlife/3.jpeg",
                 "descripcion": "Estudios"
             },
             {
-                "imagen": "../assets/structLife4.png",
+                "imagen": "../assets/structlife/4.jpeg",
                 "descripcion": "Tecnologias"
             },
             {
-                "imagen": "../assets/structLife5.png",
+                "imagen": "../assets/structlife/5.jpeg",
+                "descripcion": "Turnos"
+            },
+            {
+                "imagen": "../assets/structlife/6.jpeg",
+                "descripcion": "Turnos"
+            },
+            {
+                "imagen": "../assets/structlife/7.jpeg",
+                "descripcion": "Turnos"
+            },
+            {
+                "imagen": "../assets/structlife/8.jpeg",
+                "descripcion": "Turnos"
+            }
+            ,{
+                "imagen": "../assets/structlife/9.jpeg",
+                "descripcion": "Turnos"
+            },
+            {
+                "imagen": "../assets/structlife/10.jpeg",
+                "descripcion": "Turnos"
+            },{
+                "imagen": "../assets/structlife/11.jpeg",
                 "descripcion": "Turnos"
             }
         ]

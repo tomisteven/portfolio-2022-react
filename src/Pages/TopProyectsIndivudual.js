@@ -28,7 +28,7 @@ export default function TopProyectsIndivudual() {
     setProyects(proyect);
   }
   
-
+    console.log(proyect);
   
 
   useEffect(() => {
@@ -44,7 +44,7 @@ export default function TopProyectsIndivudual() {
     
       {
         proyect.map(el => (
-          <div className='container-proyects-individual'>
+          <div key={el.id} className='container-proyects-individual'>
             <div className="column-info">
               <div className='container-proyects-individual-info'>
                 <h1>{el.titulo}</h1>
@@ -73,7 +73,7 @@ export default function TopProyectsIndivudual() {
                     {
                       el.imagenes.map(imagen => (
                         <>
-                        <h2 className={imagen.descripcion.length > 20 ? "titulo-mayor-20" : 'h2-descripcion-img'}>{imagen.descripcion}</h2>
+                        <h2 key={el.id} className={imagen.descripcion.length > 20 ? "titulo-mayor-20" : 'h2-descripcion-img'}>{imagen.descripcion}</h2>
                         <img className='img-proyect-individual' src={imagen.imagen} alt='imagen proyecto'/>
                         </>
                       ))
